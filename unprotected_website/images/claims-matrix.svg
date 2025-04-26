@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- خلفية الرسم البياني -->
+  <rect width="800" height="500" fill="#F0F0F0" rx="10" ry="10"/>
+  
+  <!-- عنوان الرسم البياني -->
+  <text x="400" y="40" font-family="Cairo, sans-serif" font-size="24" font-weight="bold" fill="#1A365D" text-anchor="middle">مصفوفة تحليل المزاعم</text>
+  
+  <!-- جدول المزاعم -->
+  <rect x="100" y="80" width="600" height="380" fill="#FFFFFF" stroke="#1A365D" stroke-width="2" rx="5" ry="5"/>
+  
+  <!-- رأس الجدول -->
+  <rect x="100" y="80" width="600" height="60" fill="#1A365D" rx="5" ry="5"/>
+  <text x="200" y="120" font-family="Cairo, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">المزاعم</text>
+  <text x="400" y="120" font-family="Cairo, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">قوة الأدلة</text>
+  <text x="600" y="120" font-family="Cairo, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">التأثير المحتمل</text>
+  
+  <!-- خطوط الجدول -->
+  <line x1="300" y1="80" x2="300" y2="460" stroke="#1A365D" stroke-width="2"/>
+  <line x1="500" y1="80" x2="500" y2="460" stroke="#1A365D" stroke-width="2"/>
+  <line x1="100" y1="140" x2="700" y2="140" stroke="#1A365D" stroke-width="2"/>
+  <line x1="100" y1="200" x2="700" y2="200" stroke="#1A365D" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="100" y1="260" x2="700" y2="260" stroke="#1A365D" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="100" y1="320" x2="700" y2="320" stroke="#1A365D" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="100" y1="380" x2="700" y2="380" stroke="#1A365D" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- مزاعم شركة أوتو -->
+  <!-- الإجراءات التعسفية -->
+  <text x="200" y="170" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">إجراءات تعسفية بدون إخطار مسبق</text>
+  <rect x="350" y="155" width="100" height="30" rx="15" ry="15" fill="#28a745"/>
+  <text x="400" y="175" font-family="Cairo, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">قوية</text>
+  <text x="600" y="170" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">تعويض عن الأضرار</text>
+  
+  <!-- فرض أسعار تضر بالمنافسة -->
+  <text x="200" y="230" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">فرض أسعار تضر بالمنافسة</text>
+  <rect x="350" y="215" width="100" height="30" rx="15" ry="15" fill="#ffc107"/>
+  <text x="400" y="235" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">متوسطة</text>
+  <text x="600" y="230" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">غرامات وإعادة التكامل</text>
+  
+  <!-- التشهير وتشويه السمعة -->
+  <text x="200" y="290" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">التشهير وتشويه السمعة</text>
+  <rect x="350" y="275" width="100" height="30" rx="15" ry="15" fill="#28a745"/>
+  <text x="400" y="295" font-family="Cairo, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">قوية</text>
+  <text x="600" y="290" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">تعويض وإلزام بالاعتذار</text>
+  
+  <!-- خرق الالتزامات التعاقدية -->
+  <text x="200" y="350" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">خرق الالتزامات التعاقدية</text>
+  <rect x="350" y="335" width="100" height="30" rx="15" ry="15" fill="#ffc107"/>
+  <text x="400" y="355" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">متوسطة</text>
+  <text x="600" y="350" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">تعويض محدود</text>
+  
+  <!-- مزاعم منصة سلة -->
+  <!-- مشاركة بيانات حساسة -->
+  <text x="200" y="410" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">مشاركة بيانات حساسة</text>
+  <rect x="350" y="395" width="100" height="30" rx="15" ry="15" fill="#dc3545"/>
+  <text x="400" y="415" font-family="Cairo, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">ضعيفة</text>
+  <text x="600" y="410" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">تأثير محدود</text>
+  
+  <!-- عدم سداد الرسوم -->
+  <text x="200" y="440" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">عدم سداد الرسوم المستحقة</text>
+  <rect x="350" y="425" width="100" height="30" rx="15" ry="15" fill="#28a745"/>
+  <text x="400" y="445" font-family="Cairo, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">قوية</text>
+  <text x="600" y="440" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">إضعاف موقف شركة أوتو</text>
+  
+  <!-- معلومات إضافية -->
+  <text x="400" y="480" font-family="Cairo, sans-serif" font-size="12" fill="#6D7E8C" text-anchor="middle">المصدر: المذكرة الاستشارية القانونية - النزاع التجاري بين شركة أوتو ومنصة سلة</text>
+</svg>
