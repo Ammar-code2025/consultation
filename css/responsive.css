@@ -1,0 +1,288 @@
+/* ملف الأنماط المتجاوبة للموقع الإلكتروني
+   يحتوي على تعديلات خاصة بالأجهزة المختلفة */
+
+/* الأجهزة الكبيرة (أجهزة الكمبيوتر المكتبية، أكبر من 1200 بكسل) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+    
+    .display-4 {
+        font-size: 3.5rem;
+    }
+    
+    .lead {
+        font-size: 1.5rem;
+    }
+}
+
+/* الأجهزة المتوسطة (أجهزة الكمبيوتر المحمولة، أقل من 1200 بكسل) */
+@media (max-width: 1199.98px) {
+    .container {
+        max-width: 960px;
+    }
+    
+    .display-4 {
+        font-size: 3rem;
+    }
+    
+    .lead {
+        font-size: 1.4rem;
+    }
+    
+    .page-header {
+        padding-top: 4rem !important;
+        padding-bottom: 4rem !important;
+    }
+}
+
+/* الأجهزة الصغيرة (الأجهزة اللوحية، أقل من 992 بكسل) */
+@media (max-width: 991.98px) {
+    .container {
+        max-width: 720px;
+    }
+    
+    .display-4 {
+        font-size: 2.5rem;
+    }
+    
+    .lead {
+        font-size: 1.3rem;
+    }
+    
+    .page-header {
+        padding-top: 3.5rem !important;
+        padding-bottom: 3.5rem !important;
+    }
+    
+    .navbar-brand .logo-text {
+        font-size: 1.8rem;
+    }
+    
+    .card {
+        margin-bottom: 1.5rem;
+    }
+    
+    .timeline-container::before {
+        left: 60px;
+    }
+    
+    .timeline-item {
+        padding-left: 100px;
+    }
+    
+    .timeline-date {
+        left: 0;
+    }
+}
+
+/* الأجهزة الصغيرة جداً (الهواتف الذكية، أقل من 768 بكسل) */
+@media (max-width: 767.98px) {
+    .container {
+        max-width: 540px;
+    }
+    
+    .display-4 {
+        font-size: 2rem;
+    }
+    
+    .lead {
+        font-size: 1.2rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+    
+    .page-header {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+        margin-top: 4rem !important;
+    }
+    
+    .navbar-brand .logo-text {
+        font-size: 1.5rem;
+    }
+    
+    .timeline-container {
+        padding-left: 0;
+    }
+    
+    .timeline-container::before {
+        display: none;
+    }
+    
+    .timeline-item {
+        padding-left: 0;
+        margin-bottom: 2rem;
+    }
+    
+    .timeline-date {
+        position: static;
+        margin-bottom: 1rem;
+        text-align: right;
+    }
+    
+    .timeline-content {
+        padding: 1rem;
+    }
+    
+    .option-meter {
+        height: 20px;
+    }
+    
+    .comparison-table {
+        font-size: 0.9rem;
+    }
+    
+    .footer {
+        text-align: center;
+    }
+    
+    .footer .text-md-end {
+        text-align: center !important;
+        margin-top: 1.5rem;
+    }
+}
+
+/* الأجهزة الصغيرة جداً (الهواتف الصغيرة، أقل من 576 بكسل) */
+@media (max-width: 575.98px) {
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+    .display-4 {
+        font-size: 1.8rem;
+    }
+    
+    .lead {
+        font-size: 1.1rem;
+    }
+    
+    h2 {
+        font-size: 1.6rem;
+    }
+    
+    h3 {
+        font-size: 1.4rem;
+    }
+    
+    .page-header {
+        padding-top: 2.5rem !important;
+        padding-bottom: 2.5rem !important;
+    }
+    
+    .navbar-brand .logo-text {
+        font-size: 1.3rem;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .timeline-content {
+        padding: 0.8rem;
+    }
+    
+    .comparison-table {
+        font-size: 0.8rem;
+    }
+    
+    .table-responsive {
+        overflow-x: auto;
+    }
+    
+    .option-meter {
+        height: 15px;
+    }
+    
+    .option-meter-label {
+        font-size: 0.8rem;
+    }
+}
+
+/* تعديلات خاصة بالاتجاه الأفقي للأجهزة المحمولة */
+@media (max-height: 500px) and (orientation: landscape) {
+    .page-header {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+        margin-top: 4rem !important;
+    }
+    
+    .navbar {
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+    }
+    
+    .display-4 {
+        font-size: 1.8rem;
+    }
+    
+    .lead {
+        font-size: 1.1rem;
+    }
+}
+
+/* تعديلات خاصة بالطباعة */
+@media print {
+    .navbar,
+    .footer,
+    .btn {
+        display: none !important;
+    }
+    
+    body {
+        font-size: 12pt;
+        color: #000;
+        background-color: #fff;
+    }
+    
+    .container {
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .page-header {
+        margin-top: 0 !important;
+        padding: 1rem 0 !important;
+        color: #000 !important;
+        background-color: #fff !important;
+    }
+    
+    .card {
+        border: 1px solid #ddd !important;
+        box-shadow: none !important;
+    }
+    
+    .timeline-container::before {
+        display: none;
+    }
+    
+    .timeline-item {
+        padding-left: 0;
+        margin-bottom: 1.5rem;
+    }
+    
+    .timeline-date {
+        position: static;
+        margin-bottom: 0.5rem;
+    }
+    
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+    
+    .option-meter-fill {
+        border: 1px solid #000;
+    }
+}

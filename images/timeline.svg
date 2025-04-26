@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <!-- خلفية الرسم البياني -->
+  <rect width="800" height="400" fill="#F0F0F0" rx="10" ry="10"/>
+  
+  <!-- عنوان الرسم البياني -->
+  <text x="400" y="40" font-family="Cairo, sans-serif" font-size="24" font-weight="bold" fill="#1A365D" text-anchor="middle">التسلسل الزمني للنزاع بين شركة أوتو ومنصة سلة</text>
+  
+  <!-- خط الزمن الرئيسي -->
+  <line x1="100" y1="200" x2="700" y2="200" stroke="#4A7BA7" stroke-width="4"/>
+  
+  <!-- نقاط الزمن -->
+  <!-- بداية العلاقة -->
+  <circle cx="100" cy="200" r="15" fill="#1A365D"/>
+  <text x="100" y="240" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">03/05/2020</text>
+  <text x="100" y="260" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">بداية العلاقة</text>
+  
+  <!-- المرحلة الأولى -->
+  <circle cx="250" cy="200" r="15" fill="#4A7BA7"/>
+  <text x="250" y="240" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">10/2023</text>
+  <text x="250" y="260" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">المرحلة الأولى</text>
+  <text x="250" y="170" font-family="Cairo, sans-serif" font-size="12" fill="#6D7E8C" text-anchor="middle">إزالة التطبيق</text>
+  
+  <!-- المرحلة الثانية -->
+  <circle cx="400" cy="200" r="15" fill="#4A7BA7"/>
+  <text x="400" y="240" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">02/2024</text>
+  <text x="400" y="260" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">المرحلة الثانية</text>
+  <text x="400" y="170" font-family="Cairo, sans-serif" font-size="12" fill="#6D7E8C" text-anchor="middle">محاولات الحل</text>
+  
+  <!-- المرحلة الثالثة -->
+  <circle cx="550" cy="200" r="15" fill="#4A7BA7"/>
+  <text x="550" y="240" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">10/2024</text>
+  <text x="550" y="260" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">المرحلة الثالثة</text>
+  <text x="550" y="170" font-family="Cairo, sans-serif" font-size="12" fill="#6D7E8C" text-anchor="middle">تصاعد الخلاف</text>
+  
+  <!-- الوضع الحالي -->
+  <circle cx="700" cy="200" r="15" fill="#1A365D"/>
+  <text x="700" y="240" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">04/2025</text>
+  <text x="700" y="260" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">الوضع الحالي</text>
+  <text x="700" y="170" font-family="Cairo, sans-serif" font-size="12" fill="#6D7E8C" text-anchor="middle">إيقاف التكامل</text>
+  
+  <!-- خطوط توضيحية -->
+  <line x1="100" y1="300" x2="700" y2="300" stroke="#ADC6E6" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="400" y="330" font-family="Cairo, sans-serif" font-size="16" fill="#1A365D" text-anchor="middle">مدة العلاقة التعاقدية: أكثر من 4 سنوات</text>
+  
+  <!-- معلومات إضافية -->
+  <text x="400" y="370" font-family="Cairo, sans-serif" font-size="12" fill="#6D7E8C" text-anchor="middle">المصدر: المذكرة الاستشارية القانونية - النزاع التجاري بين شركة أوتو ومنصة سلة</text>
+</svg>

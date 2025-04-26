@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- خلفية الرسم البياني -->
+  <rect width="800" height="500" fill="#F0F0F0" rx="10" ry="10"/>
+  
+  <!-- عنوان الرسم البياني -->
+  <text x="400" y="40" font-family="Cairo, sans-serif" font-size="24" font-weight="bold" fill="#1A365D" text-anchor="middle">المقاربة المتوازية المقترحة</text>
+  
+  <!-- مخطط المقاربة المتوازية -->
+  <rect x="100" y="80" width="600" height="350" fill="#FFFFFF" stroke="#1A365D" stroke-width="2" rx="5" ry="5"/>
+  
+  <!-- العنوان الفرعي -->
+  <text x="400" y="110" font-family="Cairo, sans-serif" font-size="18" fill="#1A365D" text-anchor="middle">استراتيجية التعامل مع النزاع</text>
+  
+  <!-- خط الفصل الرئيسي -->
+  <line x1="400" y1="130" x2="400" y2="430" stroke="#1A365D" stroke-width="2" stroke-dasharray="10,5"/>
+  
+  <!-- المسار الأول: الحل الودي -->
+  <rect x="150" y="150" width="200" height="60" fill="#4A7BA7" rx="10" ry="10"/>
+  <text x="250" y="185" font-family="Cairo, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">المسار الأول: الحل الودي</text>
+  
+  <!-- المسار الثاني: الإجراءات النظامية -->
+  <rect x="450" y="150" width="200" height="60" fill="#1A365D" rx="10" ry="10"/>
+  <text x="550" y="185" font-family="Cairo, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">المسار الثاني: الإجراءات النظامية</text>
+  
+  <!-- خطوات المسار الأول -->
+  <rect x="150" y="240" width="200" height="40" fill="#ADC6E6" rx="5" ry="5"/>
+  <text x="250" y="265" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">إرسال خطاب رسمي</text>
+  
+  <rect x="150" y="300" width="200" height="40" fill="#ADC6E6" rx="5" ry="5"/>
+  <text x="250" y="325" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">التفاوض المباشر</text>
+  
+  <rect x="150" y="360" width="200" height="40" fill="#ADC6E6" rx="5" ry="5"/>
+  <text x="250" y="385" font-family="Cairo, sans-serif" font-size="14" fill="#1A365D" text-anchor="middle">الاستعانة بوسيط محايد</text>
+  
+  <!-- خطوات المسار الثاني -->
+  <rect x="450" y="240" width="200" height="40" fill="#6D7E8C" rx="5" ry="5"/>
+  <text x="550" y="265" font-family="Cairo, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">إعداد ملف الشكوى للهيئة</text>
+  
+  <rect x="450" y="300" width="200" height="40" fill="#6D7E8C" rx="5" ry="5"/>
+  <text x="550" y="325" font-family="Cairo, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">جمع الأدلة على التشهير</text>
+  
+  <rect x="450" y="360" width="200" height="40" fill="#6D7E8C" rx="5" ry="5"/>
+  <text x="550" y="385" font-family="Cairo, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">الاستعداد لرفع دعوى قضائية</text>
+  
+  <!-- أسهم توضيحية -->
+  <line x1="250" y1="210" x2="250" y2="240" stroke="#4A7BA7" stroke-width="2"/>
+  <polygon points="250,240 245,230 255,230" fill="#4A7BA7"/>
+  
+  <line x1="250" y1="280" x2="250" y2="300" stroke="#4A7BA7" stroke-width="2"/>
+  <polygon points="250,300 245,290 255,290" fill="#4A7BA7"/>
+  
+  <line x1="250" y1="340" x2="250" y2="360" stroke="#4A7BA7" stroke-width="2"/>
+  <polygon points="250,360 245,350 255,350" fill="#4A7BA7"/>
+  
+  <line x1="550" y1="210" x2="550" y2="240" stroke="#1A365D" stroke-width="2"/>
+  <polygon points="550,240 545,230 555,230" fill="#1A365D"/>
+  
+  <line x1="550" y1="280" x2="550" y2="300" stroke="#1A365D" stroke-width="2"/>
+  <polygon points="550,300 545,290 555,290" fill="#1A365D"/>
+  
+  <line x1="550" y1="340" x2="550" y2="360" stroke="#1A365D" stroke-width="2"/>
+  <polygon points="550,360 545,350 555,350" fill="#1A365D"/>
+  
+  <!-- معلومات إضافية -->
+  <text x="400" y="450" font-family="Cairo, sans-serif" font-size="16" fill="#1A365D" text-anchor="middle">احتمالية النجاح الإجمالية: 75%</text>
+  <text x="400" y="480" font-family="Cairo, sans-serif" font-size="12" fill="#6D7E8C" text-anchor="middle">المصدر: المذكرة الاستشارية القانونية - النزاع التجاري بين شركة أوتو ومنصة سلة</text>
+</svg>
